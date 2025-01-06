@@ -2,7 +2,7 @@
 
 ![VisionAI Logo](https://i.ibb.co/sq5J35B/Screenshot-2024-06-12-094922.png)
 
-VisionAI is a PyQt5-based application that allows users to organize images using Vision AI or manual methods. The application provides features like selecting folders, navigating through history, sorting folders, viewing single images, opening sub folders, images summary and deleting folders.
+VisionAI is a PyQt5-based desktop application for organizing image collections using Vision AI and manual tools. Users can select folders, navigate history, sort folders, view individual images, open subfolders, and delete unwanted folders. VisionAI leverages AI to analyze and categorize images, enhancing the manual organization process and making it efficient to manage large image collections.
 
 ## Table of Contents
 - [Features](#features)
@@ -11,6 +11,7 @@ VisionAI is a PyQt5-based application that allows users to organize images using
 - [Testing](#testing)
 - [Datasets](#datasets)
 - [Project Structure](#project-structure)
+- [Demo](#demo)
 - [Burndown Chart](#burndown-chart)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
@@ -27,6 +28,7 @@ VisionAI is a PyQt5-based application that allows users to organize images using
 - **Vision AI:** Automatically create albums for folders using Vision AI.
 - **Manual Classification:** Manually create albums for selected images.
 - **Web Demo:** View a web demo hosted on Hugging Face.
+- **Rename Folder:** Rename an album folder with confirmation.
 - **Delete Folder:** Delete an album folder with confirmation.
 - **Information Dialog:** View instructions and information about the application.
 
@@ -149,8 +151,14 @@ VisionAI/
 ```
 - app.py: The main entry point for the application.
 
+## Demo
+![Demo](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHAydWU3MnE5dnZ4Njg4eXdzYnBkZDgwMzJnemw0Z3Z0azl1MmN0MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Y5rMvrTf8JABxYHAPh/giphy.gif)
+
 ## Burndown Chart
-![Burndown Chart](https://i.ibb.co/9TLgm7g/Sprint-burndown.png)
+**Sprint 2:**
+![Burndown Chart 2](https://i.ibb.co/9TLgm7g/Sprint-burndown.png)
+**Sprint 3:**
+![Burndown Chart 3](https://i.ibb.co/gJ35qW9/Screenshot-2024-06-18-114417.png)
 
 ## Technologies Used
 - <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python" width="48" height="48"> **Python**: The primary programming language used for this project.
@@ -174,5 +182,4 @@ This project is licensed under the MIT License.
 - This project uses [YOLOv8](https://github.com/ultralytics/ultralytics) to organize images.
 - Special thanks to user "[amaralibey](https://www.kaggle.com/amaralibey)" in kaggle for the datatset.
 - Special thanks to the contributors and the open-source community for their support.
-
 
